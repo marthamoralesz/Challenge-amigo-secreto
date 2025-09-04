@@ -8,9 +8,14 @@ function agregarAmigo() {
             alert ('Por favor, ingresa un nombre');
         } else {
             listaNombreAmigos.push(amigoAgregado);
+            limpiarCampo();
         }
 
         console.log(listaNombreAmigos.length)
         console.log(listaNombreAmigos)
 
+}
+
+function limpiarCampo() {
+    document.querySelector ('#amigo').value ="";
 }

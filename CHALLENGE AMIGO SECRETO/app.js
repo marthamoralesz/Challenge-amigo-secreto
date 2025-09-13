@@ -31,19 +31,18 @@ function generarIndice() {
 }
 
 function sortearAmigo() {
-    let resultado = document.getElementById('resultado').value
+    let resultado = document.getElementById('resultado')
 
     if (listaAmigos.length === 0) {
         alert ('Por favor, ingrese un nombre')
     } else {
         let indice = generarIndice()
         let amigoSorteado = listaAmigos[indice];
-        console.log(amigoSorteado);
+        resultado.textContent = `El amigo sorteado es ${amigoSorteado}`
     }
 }
     
-   
-
 function limpiarCampo() {
     document.querySelector ('#amigo').value ="";
 }
+

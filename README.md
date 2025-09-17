@@ -1,5 +1,7 @@
 <h1 align="center"> CHALLENGE AMIGO SECRETO </h1>
-<imagen assets='imagen-portada1.jpg'> 
+
+![imagen de portada](/assets/imagen-portada1.jpg) 
+  
 <h2> Descripción del Proyecto </h2>
 <p>Este proyecto está diseñado para que permitir a los usuarios ingresar varios nombres y luego seleccionar aleatoriamente alguno de ellos. Por lo que es muy funcional para sorteo de amigos para realizar alguna actividad en conjunto o seleccionar a alguien para realizar una tarea específica </p>
 <h3> Estado del Proyecto </h3>
